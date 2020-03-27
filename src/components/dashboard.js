@@ -34,7 +34,7 @@ class Dashboard extends Component {
 
         var self = this;
         //Call API
-        axios.get('http://api.openweathermap.org/data/2.5/weather?q='+this.state.input+'&appid=f3b0ae0088a6552e6e81b86bbfdf0a6b')
+        axios.get('https://api.openweathermap.org/data/2.5/weather?q='+this.state.input+'&appid=f3b0ae0088a6552e6e81b86bbfdf0a6b')
             .then(function (response) {
                 // handle success
                 // Assing response data to states
